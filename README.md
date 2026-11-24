@@ -18,6 +18,12 @@ disagreements, edits any section, and publishes to a public URL.
 - When the AI is down, the site is still built — from verified facts only,
   with a plain template generator and a banner saying so.
 
+## Demo video (5:07, 2 real businesses)
+
+[Watch the demo — Nik Baker's + Indian Coffee House, Chandigarh](https://github.com/sahilimamk/ai-builds-my-website/releases/download/v1.0.0/ai-builds-my-website-demo.mp4)
+
+Also in the repo: `docs/demo-video/ai-builds-my-website-demo.mp4`.
+
 ## Demo (no API key needed)
 
 The seeder creates two real Chandigarh businesses with verified-only facts:
