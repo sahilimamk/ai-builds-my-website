@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+*{box-sizing:border-box} body{font-family:Inter,system-ui,sans-serif;margin:0;color:#1c2430;background:#f7f5f0;line-height:1.55}
+a{color:#b45309} header{background:#1c2430;color:#fff;padding:14px 22px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+header a{color:#fff;text-decoration:none;font-weight:600} header .brand{font-weight:800;font-size:1.15rem}
+main{max-width:960px;margin:0 auto;padding:24px 16px 60px}
+.card{background:#fff;border:1px solid #e5ddd0;border-radius:12px;padding:20px;margin:16px 0;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.btn{display:inline-block;background:#b45309;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-weight:600;cursor:pointer;text-decoration:none}
+.btn.secondary{background:#e7e0d3;color:#1c2430} .btn.small{padding:6px 12px;font-size:.9rem}
+input,select,textarea{width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;margin:6px 0 14px;font:inherit}
+label{font-weight:600;font-size:.92rem} table{width:100%;border-collapse:collapse} th,td{border-bottom:1px solid #eee;padding:8px;text-align:left;vertical-align:top}
+.badge{display:inline-block;padding:2px 9px;border-radius:99px;font-size:.8rem;font-weight:600}
+.b-verified{background:#dcfce7;color:#166534}.b-conflicting{background:#fee2e2;color:#991b1b}.b-unverified{background:#fef3c7;color:#92400e}
+.b-blocked{background:#fee2e2;color:#991b1b}.b-ok{background:#dcfce7;color:#166534}.b-failed{background:#f1f5f9;color:#475569}
+.alert{background:#fffbeb;border:1px solid #fcd34d;border-radius:10px;padding:12px 16px;margin:14px 0}
+.alert.red{background:#fef2f2;border-color:#fca5a5}.alert.green{background:#f0fdf4;border-color:#86efac}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.muted{color:#64748b;font-size:.9rem} h1{font-size:1.7rem;margin:.2em 0} h2{margin-top:0}
+footer{border-top:1px solid #e5ddd0;padding:18px;text-align:center;color:#64748b;font-size:.85rem}
+/* public site themes */
+.site-hero{padding:56px 20px;text-align:center;border-radius:14px;color:#fff}
+.theme-modern .site-hero{background:linear-gradient(135deg,#1c2430,#b45309)}
+.theme-warm .site-hero{background:linear-gradient(135deg,#7c2d12,#b45309)}
+.theme-warm{background:#fff7ed}.site-section{padding:22px 0;border-bottom:1px solid #e5ddd0}
+.gallery{display:flex;gap:10px;flex-wrap:wrap}.gallery img{max-width:220px;border-radius:10px}
+@media(max-width:600px){.site-hero{padding:36px 14px} main{padding:16px 12px}}
